@@ -1,0 +1,28 @@
+.projectBox{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    margin:100px auto;
+    margin-top:-100px;
+    background:white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding:20px 50px;
+    border-radius: 5px;
+}
+.filterBox{
+   
+    margin:10px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.filterPills{
+    width:140px;
+    margin-left:10px;
+    height:35px;
+    border-radius:25px;
+    font-size: 1.5rem;
+    text-align: center;
+    border:2px solid #1B9CFC;
+    background-color:#1B9CFC;
+    color:white;
+}
