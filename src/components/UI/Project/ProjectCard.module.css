@@ -51,15 +51,15 @@
     grid-template-columns:repeat(3,0fr);
 }
 .projectBadges{
-    width:90px;
-    height:20px;
+    width:100px;
+    height:35px;
     padding:2px;
     text-transform: capitalize;
     text-align:center;
     margin-top:5px;
     margin-left:5px;
     border:2px solid black;
-    border-radius:20px;
+    border-radius:35px;
     font-size:1rem;
     font-weight:700;
 }

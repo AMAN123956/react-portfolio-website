@@ -1,4 +1,8 @@
+import React from 'react'
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import './App.css';
+import Navbar from './components/Navbar/Navbar'
 import About from './components/About/About'
 import Skill from './components/Skill/Skill'
 import Project from './components/Project/Project'
@@ -7,12 +11,28 @@ import { faCalendarAlt, faCalendarCheck, faCalendarDay, faCalendarWeek, faCoffee
 function App() {
   
   return (
-    <div className="body-section">
+    
+    <Router>
+      <div className="body-section">
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+             <About />
+          </Route>
+          <Route path="/skill">
+              <Skill /> 
+          </Route>
+          <Route path="/project">
+              <Project />
+          </Route>
+        </Switch>
+        
+        
+       
+      </div>
+     </Router>
      
-      <About />
-      <Skill />
-     <Project />
-    </div>
+ 
   );
 }
 

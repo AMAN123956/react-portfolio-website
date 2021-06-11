@@ -1,7 +1,7 @@
 .projectBox{
     display:flex;
     flex-direction: column;
-    width:80%;
+    width:90%;
     margin:100px auto;
     margin-top:-100px;
     background:white;
@@ -18,8 +18,8 @@
 .filterPills{
     width:140px;
     margin-left:10px;
-    height:35px;
-    border-radius:25px;
+    height:40px;
+    border-radius:35px;
     font-size: 1.5rem;
     text-align: center;
     border:2px solid #1B9CFC;
