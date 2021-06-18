@@ -13,7 +13,7 @@ export default function Navbar() {
                 </Nav.Item>
                 <div style={{ display: "flex" }}>
                     <Nav.Item as="li">
-                        <Link to="/skill" className={styles.navText}>About</Link>
+                        <Link to="/about" className={styles.navText}>About</Link>
                     </Nav.Item>
                     <Nav.Item as="li">
                         <Link to="/skill" className={styles.navText}>Skills</Link>

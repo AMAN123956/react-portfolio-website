@@ -10,8 +10,10 @@
 }
 .navText{
     color:#1B9CFC;
-    font-family:sans-serif;
+    color:black;
+    font-family:monospace;
     font-weight:600;
+    font-size:1.8rem;
     margin-left: 10px;
-    margin-right:5px;
+    margin-right:10px;
 }

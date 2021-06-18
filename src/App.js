@@ -1,8 +1,9 @@
 import React from 'react'
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
+import Landing from './components/Landing/Landing'
 import About from './components/About/About'
 import Skill from './components/Skill/Skill'
 import Project from './components/Project/Project'
@@ -17,7 +18,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/">
-             <About />
+             <Landing />
+          </Route>
+          <Route path="/about">
+              <About /> 
           </Route>
           <Route path="/skill">
               <Skill /> 

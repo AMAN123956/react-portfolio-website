@@ -1,0 +1,10 @@
+.skillContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    margin-left:10%;
+    margin-top:80px;
+    padding-bottom:10px;
+    border-bottom:2px solid lightgray;
+}
