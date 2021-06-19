@@ -2,6 +2,7 @@ import styles from './Landing.module.css';
 import Header from './Header'
 import Skill from './Skill'
 import Work from './Work'
+import Blog from './Blog'
 import Contact from './Contact'
 
 function Landing() {
@@ -11,6 +12,8 @@ function Landing() {
             <Skill />
             <hr />
             <Work />
+            <hr />
+            <Blog />
             <hr />
             <Contact />
         </div>
