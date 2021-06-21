@@ -13,7 +13,9 @@ export default function WorkCard(props) {
                 </div>
                 {/*Bottom Info Section */}
                 <div className={styles.leftBottomSection}>
-                    <button className={styles.liveBtn}>{ props.title}</button>
+                    <a href={props.liveUrl} target="_blank"
+                        className={styles.liveBtn}>{props.title}
+                    </a>
                     <p className={styles.shortInfo}>
                         {props.desc}
                     </p>

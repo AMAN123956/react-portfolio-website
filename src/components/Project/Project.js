@@ -3,26 +3,17 @@ import styles from './Project.module.css'
 import Box from '../UI/Box'
 import ProjectCard from '../UI/Project/ProjectCard'
 import { frontend, fullstack, react } from '../Collection/Project'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowAltCircleRight, faBullseye, faHandSpock } from '@fortawesome/free-solid-svg-icons'
-
+import codingImg from '../../assets/img/coding.png'
 export default function Project() {
     const Title="Project Corner!"
     return (
         <div>
             <Box headingText={Title} />
-           
-            <div className={styles.projectBox}>
-               <div className={styles.filterBox}>
-                    <div className={styles.filterPills}>Frontend</div>
-                    <div className={styles.filterPills}>Full-Stack</div>
-                    <div className={styles.filterPills}>ReactJS</div>
-                </div>
-                <ProjectCard title={"frontend"} data={frontend }/>
+           <div className={styles.projectBox}>
+            <img src={codingImg} className={styles.codingImg} alt="coding_img" />
+                <ProjectCard title={"frontend"} data={frontend} />
                 <ProjectCard title={"backend"}  data={fullstack } />
                 <ProjectCard title={"reactjs"} data={react }/>
-                
             </div>
         </div>
     )

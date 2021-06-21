@@ -9,7 +9,7 @@ export default function Navbar() {
         <div>
             <Nav defaultActiveKey="/" as="ul" className={styles.navbar} >
                 <Nav.Item as="li">
-                    <Link to="/" className={styles.navText}>Home</Link>
+                    <Link to="/" className={styles.navText}>AD</Link>
                 </Nav.Item>
                 <div style={{ display: "flex" }}>
                     <Nav.Item as="li">

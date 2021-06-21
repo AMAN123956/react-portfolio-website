@@ -7,6 +7,7 @@ import Landing from './components/Landing/Landing'
 import About from './components/About/About'
 import Skill from './components/Skill/Skill'
 import Project from './components/Project/Project'
+import Footer from './components/Footer/Footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarAlt, faCalendarCheck, faCalendarDay, faCalendarWeek, faCoffee } from '@fortawesome/free-solid-svg-icons'
 function App() {

@@ -12,6 +12,7 @@ function Work() {
                 <WorkCard title={item.title}
                     imgurl={item.imgurl}
                     desc={item.desc}
+                    liveUrl={item.liveurl}
                 />
             ))}
             

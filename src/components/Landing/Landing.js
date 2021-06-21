@@ -4,7 +4,7 @@ import Skill from './Skill'
 import Work from './Work'
 import Blog from './Blog'
 import Contact from './Contact'
-
+import Footer from '../Footer/Footer'
 function Landing() {
     return (
         <div className={styles.mainContainer}>
@@ -16,6 +16,9 @@ function Landing() {
             <Blog />
             <hr />
             <Contact />
+            <hr />
+            <Footer />
+           
         </div>
     )
 }

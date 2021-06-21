@@ -1,0 +1,66 @@
+.footerContainer{
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:40px 20px;
+    margin-top:100px;
+}
+.logoText{
+    display:block;
+    margin:40px auto 80px auto;
+    width:8%;
+    background-color: white;
+    border-radius: 8px;
+    color:black;
+    font-size:2.8rem;
+    padding:5px;
+    font-family:cursive;
+}
+.heading1{
+    display:block;
+    margin:40px auto 80px auto;
+    width:70%;
+    text-align:center;
+    padding:10px;
+    font-size:2.2rem;
+    font-family:cursive;
+    color: white;
+}
+.heading2{
+    margin:50px 0px 0px 0px;
+    font-size:2rem;
+    color:#1b9cfc;
+    font-family:monospace;
+    text-align: center;
+}
+.authorName{
+    font-weight:700;
+    margin-top:50px;
+}
+.heartIcon{
+    color:red;
+    margin-left:5px;
+}
+.quoteIcon{
+    font-size:2.5rem;
+    color:white;
+    
+}
+.socialSection{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.socialIcon{
+    margin:10px;
+    font-size:3.5rem;
+    color:white;
+    transition: 0.2s linear all;
+    cursor:pointer;
+}
+.socialIcon:hover{
+    transform:scale(1.2);
+}
