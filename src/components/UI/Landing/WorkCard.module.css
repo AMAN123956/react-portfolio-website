@@ -69,3 +69,22 @@
     width:100%;
     height:100%;
 }
+
+
+/* Responsiveness Code */
+@media screen and (max-width:768px){
+    .workCard{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:30px;
+        
+    }
+    .leftSection{
+        margin-top:20px;
+        width:96%;
+    }
+    .rightSection{
+        width:96%;
+    }
+}

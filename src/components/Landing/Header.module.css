@@ -23,3 +23,18 @@
 .profileImg{
     margin-top:20px;
 }
+/* Responsive Part */
+@media screen and (max-width:768px){
+    .headerContainer{
+        margin-top:80px;
+        padding:20px 10px;
+    }
+    .aboutHeading{
+        padding:10px 10px;
+        font-size:2rem;
+        text-align:center;
+    }
+    .subHeading{
+        width:100%;
+    }
+}

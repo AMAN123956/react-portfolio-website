@@ -8,3 +8,12 @@
     padding-bottom:10px;
     border-bottom:2px solid lightgray;
 }
+/* Responsiveness Part */
+@media screen and (max-width:768px){
+    .skillContainer{
+        flex-direction: column;
+        width:96%;
+        margin:6% 2%;
+        margin-bottom:100px;
+    }
+}

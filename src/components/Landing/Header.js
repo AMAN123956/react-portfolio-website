@@ -10,7 +10,7 @@ function Header() {
                 Hi! I'm Aman , a Full-Stack Web Developer with 15+ Months experience of creating various Projects and working for multiple organizations.
             </h4>
             <img className={styles.profileImg}
-                src="https://mattfarley.ca/img/mf-avatar.svg" alt="profile_img" />
+                src="https://cdn1.vectorstock.com/i/thumb-large/80/25/programmer-flat-color-icon-vector-38028025.jpg" alt="profile_img" />
         </div>
     )
 }
