@@ -25,3 +25,14 @@
     font-size:1.8rem;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width:768px){
+    .blogImg{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .blogCard{
+        width:90%;
+        border-radius: 0px;
+    }
+}

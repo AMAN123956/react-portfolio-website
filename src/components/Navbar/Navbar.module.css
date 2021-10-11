@@ -1,6 +1,6 @@
 .navbar{
     background-color: white;
-    border-bottom:5px solid black;
+    box-shadow:2px 2px 2px 1px #1B9CFC;
     font-size:1.3rem;
     position:fixed;
     z-index:+10;
@@ -12,7 +12,6 @@
 }
 .navText{
     color:#1B9CFC;
-    color:black;
     font-family:monospace;
     font-weight:600;
     font-size:1.8rem;

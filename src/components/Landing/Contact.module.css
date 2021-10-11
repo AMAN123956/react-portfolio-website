@@ -21,3 +21,11 @@
     border-radius:30px;
     height:50px;
 }
+@media screen and (max-width:768px){
+    .contactContainer{
+        width:90%;
+    }
+    .heading1{
+        font-size:2rem;
+    }
+}

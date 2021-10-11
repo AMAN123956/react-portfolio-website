@@ -16,3 +16,8 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom:70px;
 }
+@media screen and (max-width:768px){
+    .blogBox{
+        flex-direction: column;
+    }
+}

@@ -13,7 +13,7 @@ export default function WorkCard(props) {
                 </div>
                 {/*Bottom Info Section */}
                 <div className={styles.leftBottomSection}>
-                    <a href={props.liveUrl} target="_blank"
+                    <a href={props.liveUrl} target="_blank" rel="noreferrer"
                         className={styles.liveBtn}>{props.title}
                     </a>
                     <p className={styles.shortInfo}>
@@ -23,7 +23,7 @@ export default function WorkCard(props) {
             </div>
             {/* Card Right Section */}
             <div className={styles.rightSection}>
-                <img className={styles.rightImg}
+                <img className={styles.rightImg} alt="project_img"
                     src={props.imgurl} />
             </div>
         </div>
