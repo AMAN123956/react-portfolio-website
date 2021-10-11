@@ -10,7 +10,7 @@ export default function Project() {
         <div>
             <Box headingText={Title} />
            <div className={styles.projectBox}>
-            <img src={codingImg} className={styles.codingImg} alt="coding_img" />
+            {/* <img src={codingImg} className={styles.codingImg} alt="coding_img" /> */}
                 <ProjectCard title={"frontend"} data={frontend} />
                 <ProjectCard title={"backend"}  data={fullstack } />
                 <ProjectCard title={"reactjs"} data={react }/>

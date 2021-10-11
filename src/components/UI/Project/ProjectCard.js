@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styles from './ProjectCard.module.css'
-import data from '../../Collection/Project'
+// import data from '../../Collection/Project'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faEye } from '@fortawesome/free-solid-svg-icons'
@@ -17,7 +17,7 @@ export default function ProjectCard(props) {
                             {item.title} 
                         </h2>
                         <img className={styles.projectImg}
-                            src={item.imgurl} />
+                            src={item.imgurl} alt="project_img" />
                         <p className={styles.projectDesc}>
                             {item.desc}
                         </p>
