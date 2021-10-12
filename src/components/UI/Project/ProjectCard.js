@@ -29,13 +29,17 @@ export default function ProjectCard(props) {
                             )}
                         </div>
                         <div className={styles.projectButtonCorner}>
+                            <a href={item.github} target="_blank" rel="noreferrer">
                             <button className={styles.projectButtons}>
                                 View More&nbsp;
                                 <FontAwesomeIcon icon={faEye} className={styles.projectIcon} />
                             </button>
+                            </a>
+                            <a href={item.live} target="_blank" rel="noreferrer">
                             <button className={styles.projectButtons}>Live Site&nbsp;
                             <FontAwesomeIcon icon={faCode} className={ styles.projectIcon} />
                             </button>
+                            </a>
                         </div>
                     </div>
                 )}

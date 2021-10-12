@@ -2,6 +2,7 @@ import React from 'react'
 import Box from '../UI/Box'
 import styles from './Skill.module.css'
 import SkillCard from '../UI/Skill/SkillCard'
+import Footer from '../Footer/Footer'
 import { fdata, bdata, vdata } from '../Collection/Skill'
 function Skill() {
     const Title="My Skills!"
@@ -29,6 +30,7 @@ function Skill() {
                     <SkillCard type={vdata}/>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

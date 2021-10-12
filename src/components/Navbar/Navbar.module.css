@@ -18,3 +18,11 @@
     margin-left: 10px;
     margin-right:10px;
 }
+
+@media screen and (max-width:768px){
+    .navText{
+        font-size:1.4rem;
+        margin-left:5px;
+        margin-right:5px;
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Project.module.css'
 import Box from '../UI/Box'
 import ProjectCard from '../UI/Project/ProjectCard'
+import Footer from '../Footer/Footer'
 import { frontend, fullstack, react } from '../Collection/Project'
 import codingImg from '../../assets/img/coding.png'
 export default function Project() {
@@ -15,6 +16,7 @@ export default function Project() {
                 <ProjectCard title={"backend"}  data={fullstack } />
                 <ProjectCard title={"reactjs"} data={react }/>
             </div>
+            <Footer />
         </div>
     )
 }
