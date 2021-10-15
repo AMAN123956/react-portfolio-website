@@ -1,9 +1,9 @@
 import coronaImg from '../../assets/img/symptoms.png'
 import calcultorImg from '../../assets/img/calculator.png'
 import techQuestImg from '../../assets/img/1.jpg'
-import connectImg from '../../assets/img/connect.png'
+import connectImg from '../../assets/img/jssconnect.svg'
 import iplImg from '../../assets/img/img2.png'
-import wireImg from '../../assets/img/wire.png'
+import wireImg from '../../assets/img/jsswire.svg'
 import ssbImg from '../../assets/img/ssbquiz.png'
 import musicImg from '../../assets/img/th.jpg'
 import techStoreImg from '../../assets/img/product-1.png'
@@ -14,6 +14,7 @@ const frontend = [
         desc: "Covid Website where you can see live stats and built in bot to check your chances of being corona postive.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["html", "css", "javascript", "bootstrap"],
+        color:'#1B9EFC',
         github: "https://github.com/AMAN123956/korona-",
         live: "https://lazy-corona.netlify.app"
     },
@@ -23,6 +24,7 @@ const frontend = [
         desc: "Personal Javascript Blogging Website with beautiful User-Interface Design and curated blog-previewer feature.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["html", "css", "javascript", "bootstrap", "botui", "Apis"],
+        color:'#1B9EFC',
         github: "https://github.com/AMAN123956/Blogging-Website",
         live: "https://javascript-blogs.netlify.app/"
     },
@@ -32,6 +34,7 @@ const frontend = [
         desc: "Tech Quest is a quizzing website having multiple levels, settings and profile tab to customize user info and scores of user.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["html", "css", "javascript", "bootstrap"],
+        color:'#1B9EFC',
         github: "https://aman123956.github.io/techquest/",
         live: "https://techquest.netlify.app/"
     },
@@ -41,6 +44,7 @@ const frontend = [
         desc: "Tech Quest is a quizzing website having multiple levels, settings and profile tab to customize user info and scores of user.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["html", "css", "javascript", "bootstrap"],
+        color:'#1B9EFC',
         github: "https://github.com/AMAN123956/calc",
         live: "https://aman123956.github.io/calc"
     },
@@ -50,6 +54,7 @@ const frontend = [
         desc: "Music Player with beautiful UI and enriched with features and controls to give user a hassle free experience",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["html", "css", "javascript", "bootstrap"],
+        color:'#1B9EFC',
         github: "https://github.com/JMUSIC",
         live: "https://enigmatic-tor-13609.herokuapp.com/"
     },
@@ -59,6 +64,7 @@ const frontend = [
         desc: "An e-commerce web application with features like add to cart,live deals and reminder for live deals.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["html", "css", "javascript", "bootstrap"],
+        color:'#1B9EFC',
         github: "https://github.com/aman123956/techkart",
         live: "https://techkart.netlify.app/"
     }
@@ -71,6 +77,7 @@ const fullstack = [
         desc: "An e-learning website made to help students in their studies with built in e-library,blogging corner with Google Authentication",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["javascript", "nodejs", "passportjs", "mongodb", "bootstrap", "rest apis"],
+        color:'#1B9EFC',
         github: "https://github.com/AMAN123956/jssconnect",
         live: "https://jssconnect.herokuapp.com"
     },
@@ -80,6 +87,7 @@ const fullstack = [
         desc: "JSS WIRE is a chat application where user can create their own private rooms and invite others too or can join public rooms too.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["javascript", "nodejs", "mongodb", "socket.io", "passportjs"],
+        color:'#7e2822',
         github: "https://github.com/AMAN123956/JssWire",
         live: "https://jsswire.herokuapp.com"
     },
@@ -89,6 +97,7 @@ const fullstack = [
         desc: "It is a tool made to manage all your links at one place with dashboard section to help users customize their profile.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["javascript", "nodejs", "mongodb", "expressjs", "nodemailer", "passportjs"],
+        color:'#1B9EFC',
         github: "https://github.com/threefreespirited/heckfree",
         live: "https://heckfree.herokuapp.com/"
     },
@@ -98,6 +107,7 @@ const fullstack = [
         desc: "It is web application for students preparing for ssb exam  quiz and pppdt test sections with score being tracked using charts. ",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["javascript", "nodejs", "mongodb", "expressjs", "canvas", "passportjs"],
+        color:'#1B9EFC',
         github: "https://github.com/AMAN123956/ssb-quiz",
         live: "https://fsb-quiz.herokuapp.com"
     },
@@ -107,6 +117,7 @@ const fullstack = [
         desc: "It is web application to provide resources and guidance related to ssb exam.Use of Rest Apis to show blogs and latest news.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["javascript", "nodejs", "mongodb", "expressjs", "RestApis", "expressjs"],
+        color:'#1B9EFC',
         github: "https://github.com/olive-green/ssb",
         live: "https://ssbcomrade.herokuapp.com"
     },
@@ -116,6 +127,7 @@ const fullstack = [
         desc: "IplHeat is a website where you can get all updates related to ipl with various features like LiveScore,FantasyTeams,Trivia,News.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["javascript", "nodejs", "mongodb", "expressjs", "RestApis", "expressjs"],
+        color:'#1B9EFC',
         github: "https://github.com/AMAN123956/iplfiverr",
         live: "https://ipheat.herokuapp.com"
     },
@@ -125,6 +137,7 @@ const fullstack = [
         desc: "It is a web application with built in music player and you can listen your favourite songs and logins signup using passport js.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["javascript", "nodejs", "mongodb", "expressjs", "ouath2.0", "expressjs"],
+        color:'#1B9EFC',
         github: "https://github.com/JMUSIC",
         live: "https://enigmatic-tor-13609.herokuapp.com/"
     },
@@ -140,6 +153,7 @@ const react = [
         desc: "Tech Store is a react application with Add to Cart,Payment Integration using PayPal,Modal View.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["reactjs", "css", "javascript", "bootstrap"],
+        color:'#1B9EFC',
         github: "https://github.com/AMAN123956/tech-store",
         live: "https://phone-hub.netlify.app/"
     },
@@ -149,6 +163,7 @@ const react = [
         desc: "Personal Blogging Website with beautiful UI",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["html", "css", "javascript", "bootstrap", "botui"],
+        color:'#1B9EFC',
         github: "https://github.com/AMAN123956/Blogging-Website",
         live: "https://javascript-blogs.netlify.app/"
     }

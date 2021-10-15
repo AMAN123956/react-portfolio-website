@@ -35,11 +35,16 @@
     text-transform: uppercase;
 }
 .projectImg{
-    width:280px;
-    height:240px;
+    background:white;
+    border:none;
+    width:350px;
+    height:290px;
     display: block;
     margin:10px auto;
+    margin-top:0px;
+    border-radius: 4px;
 }
+
 .projectDesc{
     font-size:1.1rem;
     color:black;
@@ -68,6 +73,13 @@
     font-weight:700;
     background-color: #1B9CFC;
     color:white;
+}
+
+.projectCard:nth-child(1) .projectBadges{
+    background:#1B9CFC;
+}
+.projectCard:nth-child(2) .projectBadges{
+    background:#7e2822;
 }
 .projectButtonCorner{
     display:flex;

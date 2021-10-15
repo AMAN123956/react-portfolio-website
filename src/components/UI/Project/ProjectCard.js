@@ -13,9 +13,9 @@ export default function ProjectCard(props) {
            <div className={styles.projectCardBox}>
                 {props.data.map(item =>
                     <div className={styles.projectCard}>
-                        <h2 className={styles.projectTitle}>
+                        {/* <h2 className={styles.projectTitle}>
                             {item.title} 
-                        </h2>
+                        </h2> */}
                         <img className={styles.projectImg}
                             src={item.imgurl} alt="project_img" />
                         <p className={styles.projectDesc}>
