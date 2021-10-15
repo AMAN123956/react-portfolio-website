@@ -1,13 +1,27 @@
-import coronaImg from '../../assets/img/symptoms.png'
-import calcultorImg from '../../assets/img/calculator.png'
-import techQuestImg from '../../assets/img/1.jpg'
+import coronaImg from '../../assets/img/corona.svg'
+import calcultorImg from '../../assets/img/calculator.svg'
+import techQuestImg from '../../assets/img/techQues.svg'
+import techKartImg from '../../assets/img/techKart.svg'
 import connectImg from '../../assets/img/jssconnect.svg'
 import iplImg from '../../assets/img/img2.png'
 import wireImg from '../../assets/img/jsswire.svg'
-import ssbImg from '../../assets/img/ssbquiz.png'
-import musicImg from '../../assets/img/th.jpg'
-import techStoreImg from '../../assets/img/product-1.png'
+import ssbImg from '../../assets/img/ssbquiz.svg'
+import ssbComradeImg from '../../assets/img/ssbcomrade.svg'
+import musicImg from '../../assets/img/music.svg'
+import techStoreImg from '../../assets/img/techStore.svg'
+import jsBlogImg from '../../assets/img/jsblog.svg'
+import driveStoreImg from '../../assets/img/drive.svg'
 const frontend = [
+    {
+        title: "Blog Website",
+        imgurl: jsBlogImg,
+        desc: "Personal Javascript Blogging Website with beautiful User-Interface Design and curated blog-previewer feature.",
+        featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
+        techstack: ["html", "css", "javascript", "bootstrap", "botui", "Apis"],
+        color:'#1B9EFC',
+        github: "https://github.com/AMAN123956/Blogging-Website",
+        live: "https://javascript-blogs.netlify.app/"
+    },
     {
         title: "Covid19 Info",
         imgurl: coronaImg,
@@ -17,16 +31,6 @@ const frontend = [
         color:'#1B9EFC',
         github: "https://github.com/AMAN123956/korona-",
         live: "https://lazy-corona.netlify.app"
-    },
-    {
-        title: "Blog Website",
-        imgurl: coronaImg,
-        desc: "Personal Javascript Blogging Website with beautiful User-Interface Design and curated blog-previewer feature.",
-        featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
-        techstack: ["html", "css", "javascript", "bootstrap", "botui", "Apis"],
-        color:'#1B9EFC',
-        github: "https://github.com/AMAN123956/Blogging-Website",
-        live: "https://javascript-blogs.netlify.app/"
     },
     {
         title: "Tech Quest",
@@ -60,7 +64,7 @@ const frontend = [
     },
     {
         title: "Tech-Kart",
-        imgurl: calcultorImg,
+        imgurl: techKartImg,
         desc: "An e-commerce web application with features like add to cart,live deals and reminder for live deals.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["html", "css", "javascript", "bootstrap"],
@@ -113,7 +117,7 @@ const fullstack = [
     },
     {
         title: "SSB Comrade",
-        imgurl: ssbImg,
+        imgurl: ssbComradeImg,
         desc: "It is web application to provide resources and guidance related to ssb exam.Use of Rest Apis to show blogs and latest news.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["javascript", "nodejs", "mongodb", "expressjs", "RestApis", "expressjs"],
@@ -148,8 +152,8 @@ const fullstack = [
 
 const react = [
     {
-        title: "Tech Store",
-        imgurl: techStoreImg,
+        title: "DRIVE CLONE",
+        imgurl: driveStoreImg,
         desc: "Tech Store is a react application with Add to Cart,Payment Integration using PayPal,Modal View.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["reactjs", "css", "javascript", "bootstrap"],
@@ -158,14 +162,14 @@ const react = [
         live: "https://phone-hub.netlify.app/"
     },
     {
-        title: "JavaScript Blog",
-        imgurl: coronaImg,
-        desc: "Personal Blogging Website with beautiful UI",
+        title: "Tech Store",
+        imgurl: techStoreImg,
+        desc: "Tech Store is a react application with Add to Cart,Payment Integration using PayPal,Modal View.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
-        techstack: ["html", "css", "javascript", "bootstrap", "botui"],
+        techstack: ["reactjs", "css", "javascript", "bootstrap"],
         color:'#1B9EFC',
-        github: "https://github.com/AMAN123956/Blogging-Website",
-        live: "https://javascript-blogs.netlify.app/"
+        github: "https://github.com/AMAN123956/tech-store",
+        live: "https://phone-hub.netlify.app/"
     }
 ]
 

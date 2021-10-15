@@ -78,9 +78,22 @@
 .projectCard:nth-child(1) .projectBadges{
     background:#1B9CFC;
 }
+.projectCard:nth-child(4) .projectBadges{
+    background:#1B9CFC;
+}
+.projectCard:nth-child(3) .projectBadges{
+    background:#dda83f;
+}
+.projectCard:nth-child(6) .projectBadges{
+    background:#dda83f;
+}
 .projectCard:nth-child(2) .projectBadges{
     background:#7e2822;
 }
+.projectCard:nth-child(5) .projectBadges{
+    background:#7e2822;
+}
+
 .projectButtonCorner{
     display:flex;
     align-items: center;

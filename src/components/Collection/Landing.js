@@ -1,5 +1,5 @@
 import jssconnectImg from '../../assets/img/jssconnect.png'
-import ssbquizImg from '../../assets/img/ssbquiz.png'
+import ssbquizImg from '../../assets/img/ssbquiz.svg'
 
 const data = [
     {
