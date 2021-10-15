@@ -106,10 +106,51 @@
     font-size:1.2rem;
     margin:3px;
     background: transparent;
-    box-shadow: rgba(85, 8, 8, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; 
+    /* box-shadow: rgba(85, 8, 8, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;  */
     border-radius:25px;
     cursor:pointer;
     transition:0.3s linear all;
+}
+.projectCard:nth-child(1) .projectButtons{
+    background-color: #ffffff;
+    border:1px solid #1B9CFC;    
+    color:#1B9CFC;
+}
+.projectCard:nth-child(4) .projectButtons{
+    background-color: #ffffff;
+    border:1px solid #1B9CFC;    
+    color:#1B9CFC;
+}
+.projectCard:nth-child(7) .projectButtons{
+    background-color: #ffffff;
+    border:1px solid #1B9CFC;    
+    color:#1B9CFC;
+}
+.projectCard:nth-child(2) .projectButtons{
+    background-color: #ffffff;
+    border:1px solid #7e2822;    
+    color:#7e2822;
+}
+.projectCard:nth-child(5) .projectButtons{
+    background-color: #ffffff;
+    border:1px solid #7e2822;    
+    color:#7e2822;
+}
+.projectCard:nth-child(8) .projectButtons{
+    background-color: #ffffff;
+    border:1px solid #7e2822;    
+    color:#7e2822;
+}
+
+.projectCard:nth-child(3) .projectButtons{
+    background-color: #ffffff;
+    border:1px solid #dda83f;    
+    color:#dda83f;
+}
+.projectCard:nth-child(6) .projectButtons{
+    background-color: #ffffff;
+    border:1px solid #dda83f;    
+    color:#dda83f;
 }
 .projectButtons:hover{
     transform: scaleY(1.05);

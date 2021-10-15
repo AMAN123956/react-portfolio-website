@@ -1,5 +1,5 @@
 .footerContainer{
-    background-color:black;
+    background-color:#1b9cfc;
     color:white;
     display:flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     width:8%;
     background-color: white;
     border-radius: 8px;
-    color:black;
+    color:#1b9cfc;
     font-size:2.8rem;
     padding:5px;
     font-family:cursive;
@@ -32,7 +32,7 @@
 .heading2{
     margin:50px 0px 0px 0px;
     font-size:2rem;
-    color:#1b9cfc;
+    color:white;
     font-family:monospace;
     text-align: center;
 }

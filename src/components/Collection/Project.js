@@ -3,7 +3,7 @@ import calcultorImg from '../../assets/img/calculator.svg'
 import techQuestImg from '../../assets/img/techQues.svg'
 import techKartImg from '../../assets/img/techKart.svg'
 import connectImg from '../../assets/img/jssconnect.svg'
-import iplImg from '../../assets/img/img2.png'
+import iplHeatImg from '../../assets/img/iplHeat.svg'
 import wireImg from '../../assets/img/jsswire.svg'
 import ssbImg from '../../assets/img/ssbquiz.svg'
 import ssbComradeImg from '../../assets/img/ssbcomrade.svg'
@@ -11,6 +11,9 @@ import musicImg from '../../assets/img/music.svg'
 import techStoreImg from '../../assets/img/techStore.svg'
 import jsBlogImg from '../../assets/img/jsblog.svg'
 import driveStoreImg from '../../assets/img/drive.svg'
+import heckFreeImg from '../../assets/img/heckfree.svg'
+import musicPlayerImg from '../../assets/img/musicPlayer.svg'
+
 const frontend = [
     {
         title: "Blog Website",
@@ -54,7 +57,7 @@ const frontend = [
     },
     {
         title: "Music Player",
-        imgurl: musicImg,
+        imgurl: musicPlayerImg,
         desc: "Music Player with beautiful UI and enriched with features and controls to give user a hassle free experience",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["html", "css", "javascript", "bootstrap"],
@@ -97,7 +100,7 @@ const fullstack = [
     },
     {
         title: "HeckFree",
-        imgurl: coronaImg,
+        imgurl: heckFreeImg,
         desc: "It is a tool made to manage all your links at one place with dashboard section to help users customize their profile.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["javascript", "nodejs", "mongodb", "expressjs", "nodemailer", "passportjs"],
@@ -127,7 +130,7 @@ const fullstack = [
     },
     {
         title: "Ipl Heat",
-        imgurl: iplImg,
+        imgurl: iplHeatImg,
         desc: "IplHeat is a website where you can get all updates related to ipl with various features like LiveScore,FantasyTeams,Trivia,News.",
         featuretext: "1.Chatbot which tells about your Probability of being Corona Postive Covid 19 Total Case Using an APIs Precautions and Symptomps Section along with FAQ",
         techstack: ["javascript", "nodejs", "mongodb", "expressjs", "RestApis", "expressjs"],
