@@ -43,7 +43,36 @@
     margin-top:50px;
     padding:10px;
   }
-  .educationbox{
+  .educationBox{
     display:flex;
+  }
+  /* .accBox{
+    display:flex;
+  } */
+  
+
+
+  /* Responsiveness */
+  @media screen and (max-width:768px){
+    .aboutbox{
+      width:95%;
+      margin-top: -50px;
+      padding:10px 10px;
+    }
+    .twosection{
+      flex-direction: column-reverse;
+    }
+    .twosection .leftsection{
+      width:100%;
+    }
+    .twosection .rightsection{
+      width:100%;
+    }
+    .educationBox{
+      flex-direction: column;
+    }
+    /* .accBox{
+      flex-direction: column;
+    } */
   }
   

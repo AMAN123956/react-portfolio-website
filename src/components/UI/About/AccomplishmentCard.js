@@ -3,10 +3,10 @@ import styles from './AccomplishmentCard.module.css'
 import data from '../../Collection/Accomplishment'
 function AccomplishmentCard() {
     return (
-        <div style={{display:"flex"}}>
+        <div className={styles.accBox}>
             {data.map(item =>
                 <div className={styles.accomplishmentcard}>
-                    <img className={styles.certificateImg} src={item} style={{ borderRadius: "0px",  margin: "10px" }} />
+                    <img className={styles.certificateImg} src={item} alt="certifivate_img" />
             </div>)}
          </div>
     )

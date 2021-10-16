@@ -8,8 +8,8 @@ function EducationCard(props) {
         <div className={styles.educationcard}>
              
             <img style={{width:'120px'}} className={styles.jssimage} src="https://www.amandixit.me/img/e-2.jpg" alt="jss_img" />
-            <h2 style="heading-2" style={{ textAlign: 'center' }}>{ props.title}</h2>
-            <h3 style="heading-4" style={{ textAlign: 'center', color:'gray' }}> <span style={{ color: 'black' }}>{ element}</span> { props.year}</h3>
+            <h2 style={{ textAlign: 'center' }}>{ props.title}</h2>
+            <h3 style={{ textAlign: 'center', color:'gray' }}> <span style={{ color: 'black' }}>{ element}</span> { props.year}</h3>
             
         </div>
        

@@ -5,6 +5,7 @@ import data from '../Collection/About'
 import { frontendContent, backendContent } from '../Content/About'
 import Education from './Education'
 import Accomplshment from './Accomplishment'
+import Footer from '../Footer/Footer'
 
 import styles from './About.module.css'
 
@@ -108,7 +109,7 @@ function About() {
                 </div>
                 {/* Education Section */}
                 <hr />
-                <div className={styles.educationsection}>
+                <div className={styles.educationSection}>
                     <h2 className="heading-2">
                     <FontAwesomeIcon icon={faArrowAltCircleRight} style={{color:'red'}}/>  EDUCATION
                     </h2>
@@ -121,7 +122,7 @@ function About() {
                 </div>
                 {/* Accomplishments Section */}
                 <hr />
-                <div className="accomplishment-section">
+                <div className={styles.accomplishmentSection}>
                     <h2 className="heading-2">
                         <FontAwesomeIcon icon={faArrowAltCircleRight} style={{ color: 'red' }} /> ACCOMPLISHMENTS
                     </h2>
@@ -131,6 +132,7 @@ function About() {
                 <br />
                 <hr />
             </div>
+            <Footer />
        </div>
     );
 }
