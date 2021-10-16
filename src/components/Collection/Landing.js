@@ -1,16 +1,18 @@
 import jssconnectImg from '../../assets/img/jssconnect.png'
 import ssbquizImg from '../../assets/img/ssbquiz.svg'
+import connectImg from '../../assets/img/jssconnect.svg'
+import heckFreeImg from '../../assets/img/heckfree.svg'
 
 const data = [
     {
         title: "JSS CONNECT",
-        imgurl: jssconnectImg,
+        imgurl: connectImg,
         desc:"An e-learning website made to help students in their studies with built in e-library,blogging corner with Google Authentication",
         liveurl: "https://jssconnect.herokuapp.com"
     },
     {
         title: "HeckFree",
-        imgurl: jssconnectImg,
+        imgurl: heckFreeImg,
         desc: "It is a tool made to manage all your links at one place with dashboard section to help users customize their profile.",
         liveurl: "https://heckfree.herokuapp.com"
     },
