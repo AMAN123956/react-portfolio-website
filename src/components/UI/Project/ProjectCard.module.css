@@ -5,6 +5,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
     text-transform: uppercase;
+    color:#1B9CFC;
 }
 .projectCardBox{
     display:grid;
@@ -16,7 +17,8 @@
     width:350px;
     padding-top:0px;
     margin-top:20px;
-    margin-right:10px;
+    margin-left: 5px;
+    margin-right:5px;
     margin-bottom:20px;
     height:620px;
     transition: 0.45s linear all;

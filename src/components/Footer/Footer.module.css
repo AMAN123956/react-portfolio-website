@@ -1,6 +1,9 @@
 .footerContainer{
     background-color:#1b9cfc;
     color:white;
+    background: url('../../assets/img/b2.png');
+    background-color: #1B9CFC;
+    background-repeat: repeat-y;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -26,14 +29,14 @@
     text-align:center;
     padding:10px;
     font-size:2.2rem;
-    font-family:cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 .heading2{
     margin:50px 0px 0px 0px;
     font-size:2rem;
     color:white;
-    font-family:monospace;
+    font-family:sans-serif;
     text-align: center;
 }
 .authorName{
@@ -62,5 +65,6 @@
     cursor:pointer;
 }
 .socialIcon:hover{
+    color:black;
     transform:scale(1.2);
 }

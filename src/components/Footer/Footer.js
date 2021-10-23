@@ -21,15 +21,15 @@ function Footer() {
             </div>
             <div className={styles.socialSection}>
                 <a href="https://www.linkedin.com/in/aman-dixit-b371b9190/"
-                    className={styles.socialIcon} target="_blank">
+                    className={styles.socialIcon} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <a href="https://github.com/AMAN123956"
-                    className={styles.socialIcon} target="_blank">
+                    className={styles.socialIcon} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithubSquare} />
                 </a>
                 <a href="https://www.freecodecamp.org/amandixit"
-                    className={styles.socialIcon} target="_blank">
+                    className={styles.socialIcon} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faInstagramSquare} />
                 </a>
             </div>
