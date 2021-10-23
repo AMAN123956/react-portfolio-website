@@ -163,10 +163,13 @@
     .projectCardBox{
         display:flex;
         padding:0px;
-        width:98%;
+        width:99%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .projectImg{
+        width:100%;
     }
     .projectTypeText{
         font-size:2.5rem;
@@ -175,6 +178,7 @@
         width:100%;
         height:fit-content;
         padding:10px 5px;
+        margin-right:0px;
     }
     .projectBadgeCorner{
         grid-template-columns: repeat(3,1fr);
